@@ -1,0 +1,13 @@
+<div class="container">
+    
+    <div class="justify-content-center align-items-center mb-3" id="loginform" [formGroup]="formLogin">
+        <h2>Login!</h2>
+        Usuario:
+        <br>
+        <input type="text" class="form-control" formControlName="usuario">
+        Contraseña:
+        <br>
+        <input type="text" class="form-control" formControlName="contraseña">
+        <button class="btn btn-warning" (click)="checkUser()">Log In</button>
+    </div>
+</div>
