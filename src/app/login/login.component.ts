@@ -20,9 +20,11 @@ export class LoginComponent {
   checkUser(){
     if (this.formLogin.get("usuario")?.valid && this.formLogin.get("contraseña")?.valid ) {
       this.loginService.login(this.formLogin.get("usuario")?.value,this.formLogin.get("contraseña")?.value)
+      this.router.navigate(['juego']);
     }
+  }
 
-    
-
+  cambiarFormulario(){
+    this.router.navigate(['signin']);
   }
 }
