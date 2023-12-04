@@ -40,7 +40,7 @@ export class UserService {
       let objeto = {
         nombre: nombre,
         correo: correo,
-        usuario:correo,
+        usuario: usuario,
         contraseña:contraseña
       }
       this.listaUsuarios.push(objeto)

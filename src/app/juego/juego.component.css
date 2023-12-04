@@ -1,0 +1,9 @@
+*{
+    background: url('https://img.freepik.com/vector-premium/trivia-night-neon-sign-vector-fondo-pared-ladrillo_118419-3958.jpg?w=826');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    max-width: 100%;
+    max-height:100% ;
+}
