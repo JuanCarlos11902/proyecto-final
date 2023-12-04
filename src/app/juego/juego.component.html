@@ -1,6 +1,7 @@
-<div>
-    <p>epgf+pweogj+pçweogjk</p>
+<div *ngIf="listaPreguntas.length>0">
+    <app-questions [pregunta]="preguntaActual" (avanzar)="siguientePregunta()" [arrayRespuestas]="arrayRespuestas"></app-questions>
     <br>
     <br>
-    <p>qwpgojepwogj</p>
+    <br>
+    <app-resultados [resultados]="resultados"></app-resultados>
 </div>
